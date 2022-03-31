@@ -1,0 +1,60 @@
+<!--Version 1.0 03-30-2022-->
+
+<html>
+    <head>
+        <title>Snowfall</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <img src="images\logo-small.png" id="logo">
+        <header>
+            <ul>
+                <li><a href="#info">Getting Started</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <canvas id="canvas"></canvas>
+            <img src="images\background.png" id="bg">
+            <img src="images\moon.png" id="moon">
+            <img src="images\snow-layer-4.png" id="snow4">
+            <img src="images\snow-layer-3.png" id="snow3">
+            <img src="images\snow-layer-2.png" id="snow2">
+            <img src="images\snow-layer-1.png" id="snow1">
+            <img src="images\snowfall.png" id="snowtitle">
+        </section>
+
+        <div style = "text-align: center;" id="info">
+            <h1>Welcome to the Snowfall 2022,  a Virtual White Elephant Event.</h1>
+            <h3>December 25, 2022 at 5:00pm EST</h3>
+            <br>
+            <p>Join us on Christmas Day fo a whimsical evening of gift exchange. Wrapping paper not included. Start the gift-giving below:<br><br></p>
+        </div>
+        
+        <div class="container">
+            <div>
+                <h2>How to play</h2>
+                <p>Here are the instructions to get started!</p>
+                <button OnClick="onClickRules()">Learn more</button>
+            </div>
+
+            <div>
+                <h2>Gift Ideas</h2>
+                <p>Need help finding a gift?</p>
+                <button OnClick="onClickGifts()">Learn more</button>
+            </div>
+
+            <div>
+                <h2>RSVP</h2>
+                <p>If you are like to RSVP, click here</p>
+                <button OnClick="onClickRSVP()">Sign Up!</button>
+            </div>
+
+        </div>
+        
+        <script src="main.js"></script>
+
+    </body>
+</html>

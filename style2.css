@@ -1,0 +1,96 @@
+/* CSS for RSVP page */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+*
+{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+/*    display: flex;*/
+    height: 100vh;
+/*    justify-content: center;
+    align-items: center;*/
+    padding: 0 10px;
+    background: #08083f;
+    color: #b7b7f8;
+
+}
+
+.container{
+    max-width: 500px;
+    width: 100%;
+    background: #1313a7;
+    margin: 20px auto;
+    padding: 30px;
+/*    border-radius: 5px;*/
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+/*    color: #fec107;*/
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .form{
+    width: 100%;
+}
+
+.container .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input-field label{
+    width: 200px;
+/*    color: #757575;*/
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.container .form .input-field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+#logo-medium
+{
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.container .form .user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-info .input-box{
+    margin 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-info .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-info .input-box input{
+    height: 45px;
+    width: 100%
+}*/
